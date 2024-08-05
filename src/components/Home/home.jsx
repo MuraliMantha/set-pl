@@ -3,6 +3,7 @@ import "./home.css"
 import Navbar from "../Navbar/navbar"
 import Solutions from '../Solutions/solutions'
 import Technologies from '../Technology/technology'
+import Footer from '../Footer/footer'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
    </div>
    <Solutions />
    <Technologies />
+   <Footer />
    </>
   )
 }

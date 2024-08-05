@@ -1,4 +1,5 @@
 import React from 'react'
+import "./footer.css"
 
 const Footer = () => {
   return (
@@ -16,10 +17,34 @@ const Footer = () => {
               <img src='/assets/insta.webp' alt='Instagram' className='footer-social-icon'/>
             </a>
             <a href='https://www.facebook.com/victor-kramarenko/' target='_blank' rel='noopener noreferrer'>
-              <img src='/assets/facebook.png' alt='LinkedIn' className='footer-social-icon'/>
+              <img src='/assets/fb.webp' alt='LinkedIn' className='footer-social-icon'/>
             </a>
         </div>
       </div>
+
+        <div className='footer-company-container'>
+          <div className='footer-company'>
+            <h1 className='footer-company-heading'>Company</h1>
+              <p className='footer-company-items'>Solutions</p>
+              <p className='footer-company-items'>Technologies</p>
+              <p className='footer-company-items'>Environment</p>
+              <p className='footer-company-items'>Home</p>
+          </div>
+
+          <div className='footer-company'>
+          <h1 className='footer-company-heading'>Support</h1>
+              <p className='footer-company-items'>FAQ'S</p>
+              <p className='footer-company-items'>Private Policies</p>
+              <p className='footer-company-items'>Refund Policies</p>
+              <p className='footer-company-items'>Contact Us</p>
+          </div>
+          <div className='footer-email-form'>
+          <h1 className='footer-email-heading'>Email</h1>
+            <input type='text' placeholder='Your Email Address' className='footer-email-input'/>
+            <button type='submit' className='footer-email-submit'>Subscribe</button>
+          </div>
+        </div>
+      
     </div>
   )
 }
