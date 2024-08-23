@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <div className='footer-logo-container'>
-        <img src='/assets/logo.png' alt='Logo' className='footer-logo'/>
+        <img src='/assets/Logo_Set-PL_Converted-removebg.png' alt='Logo' className='footer-logo'/>
         <div className='footer-social-container'>
             <a href='https://github.com/victor-kramarenko' target='_blank' rel='noopener noreferrer'>
               <img src='/assets/github.png' alt='GitHub' className='footer-social-icon'/>
@@ -43,6 +43,11 @@ const Footer = () => {
             <input type='text' placeholder='Your Email Address' className='footer-email-input'/>
             <button type='submit' className='footer-email-submit'>Subscribe</button>
           </div>
+        </div>
+
+        <div className='copy-right-container'>
+          <p className='copy-right'>©️ 2021 All rights reserved. Set Pvt Ltd</p>
+          <p className='copy-right'>Terms & conditions</p>
         </div>
       
     </div>

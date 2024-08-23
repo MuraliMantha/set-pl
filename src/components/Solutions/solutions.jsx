@@ -41,6 +41,7 @@ const Solutions = () => {
 
   return (
     <div className="solutions-tabs-container">
+    <h1 className="solutions-tabs-heading"><span className='span-el'>Our Solutions </span>include advanced control systems, innovative light canopy systems, turnkey solutions, and retrofit services to ensure optimal performance and efficiency for your environmental technology needs.</h1>
       <div className="solutions-tabs">
         {tabsContent.map((tab) => (
           <button

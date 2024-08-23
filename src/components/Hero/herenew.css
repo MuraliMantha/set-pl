@@ -1,0 +1,19 @@
+.container {
+    width: 98.89vw;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  
+  }
+  
+  
+  
+  
+  .image-container {
+    width: 40%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    /* height: auto; */
+    /* border-radius: 40% 0 40%; */
+  }

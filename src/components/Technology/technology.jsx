@@ -44,7 +44,7 @@ const cards = [
 
 const Technologies = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [isPlaying, setIsPlaying] = useState(false);
+    const [isPlaying, setIsPlaying] = useState(true);
     const [isExpanded, setIsExpanded] = useState(false); 
 
     useEffect(() => {
@@ -81,7 +81,7 @@ const Technologies = () => {
 
     return (
         <div className="technology-container">
-            <h1 className='technology-main-heading'>Transforming your Businesses with our Advanced Technologies</h1>
+            <h1 className='technology-main-heading'><span className='span-el'>Transforming </span>your Businesses with our Advanced Technologies</h1>
             <div className='technology-image-text-container'>
                 <div className='technology-image-container'>
                     <img src={cards[currentIndex].image} alt={cards[currentIndex].title} className='technology-image' />

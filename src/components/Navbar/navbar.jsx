@@ -72,12 +72,13 @@ const Navbar = () => {
                     <li className="dropdown-item">Retrofit</li>
                   </ul>
                   <div className='dropdown-content'>
-                    <p className='dropdown-para'>Our solutions include advanced control systems, innovative light canopy systems, turnkey solutions,
+                    <p className='dropdown-para'><span className='span-el'>Our solutions</span> include advanced control systems, innovative light canopy systems, turnkey solutions,
                     and retrofit services to ensure optimal performance and efficiency for your environmental technology needs.</p>
                     <button className='dropdown-button'>
                       Explore
                     </button>
                   </div>
+                  <img src='/assets/sol.jpg' alt='nav-img' className='nav-img' />
                 </div>
               )}
             </li>
@@ -92,12 +93,13 @@ const Navbar = () => {
                     <li className="dropdown-item">Storage chambers</li>
                   </ul>
                   <div className='dropdown-content'>
-                    <p className='dropdown-para'>Discover our advanced solutions for controlled environments, including Reach-in Plant Growth Chambers, Walk-in Plant Growth Rooms, Custom Controlled Environments,
+                    <p className='dropdown-para'><span className='span-el'>Discover </span>our advanced solutions for controlled environments, including Reach-in Plant Growth Chambers, Walk-in Plant Growth Rooms, Custom Controlled Environments,
                     and specialized Storage Chambers designed to meet diverse agricultural and research needs.</p>
                     <button className='dropdown-button'>
                       Explore
                     </button>
                   </div>
+                  <img src='/assets/navimg.jpg' alt='nav-img' className='nav-img' />
                 </div>
               )}
             </li>
@@ -112,29 +114,28 @@ const Navbar = () => {
                     <li className="dropdown-item">Air bags</li>
                   </ul>
                   <div className='dropdown-content'>
-                    <p className='dropdown-para'>Innovative Testing Solutions: Advanced Technology for Automobiles, Electronics, and Custom Applications.Our cutting-edge technology ensures rigorous testing
+                    <p className='dropdown-para'><span className='span-el'>Innovative </span>Testing Solutions Advanced Technology for Automobiles, Electronics, and Custom Applications.Our cutting-edge technology ensures rigorous testing
                     and validation for automotive components, electronic devices, and bespoke applications. </p>
                     <button className='dropdown-button'>
                       Explore
                     </button>
                   </div>
+                  <img src='/assets/tech.jpg' alt='nav-img' className='nav-img' />
                 </div>
               )}
             </li>
+            
             <li className="nav-item">
-              Contact
-            </li>
-            <button className="nav-button">
         
-              Insights
+              Contact Us
           
-            </button>
+            </li>
           </ul>
 
        
         <div className="navbar-mobile-container">
           <button className="nav-mobile-button">
-            Insights
+            Contact Us
           </button>
           <div className="mobile-menu-icon" >
             {isOpen ? <FaTimes onClick={toggleMenu} className='cross' /> : <FaBars onClick={toggleMenu} className='ham'/>}
@@ -153,9 +154,7 @@ const Navbar = () => {
               <li className="nav-item-mobile" >
                 Technology
               </li>
-              <li className="nav-item-mobile" >
-                Contact
-              </li>
+              
             </ul>
            
           </div>

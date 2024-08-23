@@ -1,25 +1,30 @@
 .footer-container{
-    width: 98.45vw;
+    width: 98.62vw;
+    background-color: #333253;
+    color: white;
 }
 
 .footer-logo-container{
     display: flex;
     justify-content: space-between;
-    padding: 4%;
+    align-items: center;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
     border-bottom: #E67817 solid 3px;
 }
 
 .footer-logo{
     margin-top: 2%;
-    width: 8%;
-    height: 8%;
+    width: 6%;
+    height: 6%;
 }
 
 .footer-social-container{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     width: 80%;
-    align-self: flex-end;
 }
 .footer-social-icon{
     margin-left: 20px;
@@ -28,18 +33,20 @@
     width: 50px;
     height: 50px;
     transition: transform 0.3s ease-in-out;
+    border-radius: 25px;
 }
 
 .footer-social-icon:hover{
     transform: scale(1.1);
-    box-shadow:  30px 30px 60px white,
-             -30px -30px 60px white;
 }
 
 .footer-company-container{
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+.footer-company-items{
+    margin-bottom: 15px;
 }
 
 .footer-company{
@@ -50,19 +57,17 @@
 .footer-company-heading{
     font-size: 28px;
     color: #85C324;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .footer-email-form{
     margin: 4%;
-    padding: 1%;
+    padding: 2%;
     display: flex;
     width: 30%;
-    height: 200px;
+    height: 180px;
     flex-direction: column;
     background: linear-gradient(45deg, #E67817, #F4A300);
-
-
     border-radius: 20px;
 }
 
@@ -77,11 +82,26 @@
 
 .footer-email-submit{
     width: 55%;
-    margin-bottom: 20px;
     padding: 12px;
     border-radius: 8px;
     border: transparent;
     background: #fdfdfde0;
+}
+.footer-email-heading{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+}
+.footer-set{
+    background-color: transparent !important;
+}
+
+.copy-right-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-left: 4%;
+        padding-right: 4%;
 }
 
 @media screen and (max-width: 768px){
@@ -159,6 +179,7 @@
     }
     .footer-email-heading{
         font-size: 25px;
+        color: black;
     }
 
 }
