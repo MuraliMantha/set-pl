@@ -5,36 +5,24 @@ import './technology.css';
 const cards = [
     {
       image: '/assets/tech.jpg',
-      title: 'Hot & Cold Chambers',
-      description: 'Hot and cold chambers are essential for simulating extreme temperature conditions to test the durability and performance of products. These chambers can rapidly transition between high and low temperatures, ensuring that products can withstand real-world environmental changes. They are widely used in various industries, including automotive, aerospace, electronics, and pharmaceuticals.',
+      title: 'Automobile Test Chamber',
+      description: 'Shanghai Zundar Technology Co., Ltd. has been a leader in the environment test and simulation industry since its establishment in 2000. The company is pioneering work includes the development of advanced climate simulation test chambers, which are critical for automotive manufacturing. These chambers are designed to replicate a wide range of environmental conditions, enabling rigorous testing of vehicles under simulated real-world scenarios. With Zundar’s expertise in refrigeration and air conditioning technologies, combined with a proprietary PLC control system and accurate PID algorithms, these chambers ensure high precision and reliability, helping automotive manufacturers enhance the safety and performance of their vehicles.',
     },
     {
       image: '/assets/tech.jpg',
-      title: 'Fast Rate Cooling Chambers',
-      description: 'Fast rate cooling chambers are designed to quickly reduce the temperature of products and materials. These chambers are crucial for processes that require rapid cooling, such as material stress testing and thermal shock testing. Their ability to achieve swift temperature changes helps in accelerating testing cycles, improving efficiency, and ensuring the reliability of products under sudden temperature variations.',
+      title: 'Electronic Technology',
+      description: 'Zundar electronic technology portfolio is marked by innovation and integration. The company is products are embedded with advanced control systems, ensuring precise management of environmental variables in test chambers. This includes the integration of high-efficiency refrigeration technology and air cycle systems, making Zundar’s chambers ideal for testing electronic components under extreme conditions. The combination of these technologies ensures that electronic products can withstand various environmental stressors, enhancing their durability and performance.',
     },
     {
       image: '/assets/tech.jpg',
-      title: 'Walk-In Chambers',
-      description: 'Walk-in chambers provide a spacious environment for testing large products or multiple items simultaneously under controlled temperature and humidity conditions. These chambers are ideal for industries that require extensive testing of bulky equipment, such as the automotive and aerospace sectors. The flexibility of walk-in chambers allows for comprehensive environmental testing, ensuring product performance and safety.',
+      title: 'Customized Technologies',
+      description: 'Understanding the diverse needs of different industries, Zundar offers customized technology solutions that cater to specific testing requirements. The company’s ability to tailor its test chambers to meet unique client specifications is one of its standout features. From custom-sized chambers to specialized environmental simulations, Zundar’s customized technology ensures that clients receive solutions that are not only effective but also precisely aligned with their operational needs. This adaptability makes Zundar a preferred partner for industries requiring bespoke environmental testing solutions.',
     },
     {
         image: '/assets/tech.jpg',
         title: 'Airbag Deployment System',
-        description: 'The airbag deployment system testing ensures that airbags will function correctly in real-world scenarios. This system simulates various crash conditions to validate the timing, inflation, and deployment of airbags. Ensuring the reliability of airbag systems is critical for automotive safety, protecting passengers during collisions.',
+        description: 'In the realm of automotive safety, Zundar has developed specialized chambers for the testing of airbags. These chambers are designed to simulate various environmental conditions that airbags might encounter throughout their lifecycle, from extreme temperatures to humidity variations. By rigorously testing airbags under these conditions, Zundar helps manufacturers ensure that their products meet the highest safety standards, ultimately contributing to the overall safety of vehicles on the road.',
     },
-
-    {
-        image: '/assets/tech.jpg',
-        title: 'Dust Test & Rain Test Chambers',
-        description: 'Dust and rain test chambers are designed to replicate harsh environmental conditions involving particulate matter and water exposure. Dust test chambers assess the resilience of products against dust penetration, while rain test chambers simulate various rainfall conditions to evaluate water resistance. These tests are crucial for products used in outdoor and industrial environments.',
-      },
-
-      {
-        image: '/assets/tech.jpg',
-        title: 'Convection Ovens & Inert Gas Ovens',
-        description: 'Convection ovens utilize circulated hot air to uniformly heat products, making them ideal for baking, drying, and curing applications. Inert gas ovens, on the other hand, use an inert atmosphere (such as nitrogen) to prevent oxidation and contamination during the heating process. These ovens are essential in industries requiring precise thermal processing without chemical reactions.',
-      },
   ];
 
   const truncateText = (text, maxLength) => {

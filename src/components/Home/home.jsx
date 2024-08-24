@@ -33,6 +33,8 @@ import Footer from '../Footer/footer'
 import CustomizedConepy from '../CustomizedConepy/customizedConepy'
 import Chambers from '../Chambers/chambers'
 import SingleChamber from '../Chambers/SingleCamber/singleChamber'
+import SingleTechnology from '../SingleTechnology/singleTechnology'
+import ContactUs from '../Contact/contact'
 
 const Home = () => {
   return (
@@ -48,10 +50,12 @@ const Home = () => {
    <Cards />
 
    <Technologies />
-   {/* <CustomizedConepy /> */}
+   <SingleTechnology />
+   <CustomizedConepy />
    <Footer /> 
    {/* <Chambers/>
  <SingleChamber /> */}
+ <ContactUs />
    </>
   )
 }
