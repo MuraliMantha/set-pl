@@ -35,6 +35,7 @@ import Chambers from '../Chambers/chambers'
 import SingleChamber from '../Chambers/SingleCamber/singleChamber'
 import SingleTechnology from '../SingleTechnology/singleTechnology'
 import ContactUs from '../Contact/contact'
+import SinglePointController from '../Controllers/controller'
 
 const Home = () => {
   return (
@@ -56,6 +57,7 @@ const Home = () => {
    {/* <Chambers/>
  <SingleChamber /> */}
  <ContactUs />
+ <SinglePointController />
    </>
   )
 }
