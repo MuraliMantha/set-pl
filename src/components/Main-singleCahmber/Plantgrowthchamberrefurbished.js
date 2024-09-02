@@ -105,7 +105,11 @@ const Plantgrowthchamberrefurbished = () => {
       </div>
 
       {/* Carousel starts here */}
-      <div className="product-gallery">
+
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div className="product-gallery">
         <div className="product-card unique-product-card-1">
           <img src="https://dummyimage.com/600x400/000/fff" alt="Product 1" className="product-image" />
           <div className="product-info">
@@ -113,20 +117,36 @@ const Plantgrowthchamberrefurbished = () => {
           </div>
         </div>
 
-        <div className="product-card unique-product-card-2">
-          <img src="https://dummyimage.com/600x400/000/fff" alt="Product 2" className="product-image" />
+
+     
+      </div>    </div>
+    <div class="carousel-item">
+    <div className="product-gallery">
+        <div className="product-card unique-product-card-1">
+          <img src="https://dummyimage.com/600x400/000/fff" alt="Product 1" className="product-image" />
           <div className="product-info">
-            <h2 className="product-title">Product 2</h2>
+            <h2 className="product-title">Product 1</h2>
           </div>
         </div>
 
-        <div className="product-card unique-product-card-3">
-          <img src="https://dummyimage.com/600x400/000/fff" alt="Product 3" className="product-image" />
+    
+      </div>    </div>
+    <div class="carousel-item">
+    <div className="product-gallery">
+        <div className="product-card unique-product-card-1">
+          <img src="https://dummyimage.com/600x400/000/fff" alt="Product 1" className="product-image" />
           <div className="product-info">
-            <h2 className="product-title">Product 3</h2>
+            <h2 className="product-title">Product 1</h2>
           </div>
         </div>
-      </div>
+
+
+
+      </div>    </div>
+  </div>
+ 
+</div>
+
       {/* Carousel ends here */}
 
       <div className="single-chamber-accordion-container">

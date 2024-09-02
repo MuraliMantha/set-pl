@@ -65,14 +65,15 @@
     padding: 2%;
     display: flex;
     width: 30%;
-    height: 180px;
+    height: 250px;
     flex-direction: column;
     background: linear-gradient(45deg, #E67817, #F4A300);
     border-radius: 20px;
 }
 
 .footer-email-input{
-    width: 50%;
+    width: 75%;
+    height: 50px;
     margin-bottom: 20px;
     padding: 12px;
     border-radius: 8px;
@@ -81,7 +82,8 @@
 }
 
 .footer-email-submit{
-    width: 55%;
+    width: 75%;
+    height: 50px;
     padding: 12px;
     border-radius: 8px;
     border: transparent;

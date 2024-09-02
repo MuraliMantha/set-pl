@@ -60,24 +60,31 @@ const Navbar = () => {
 
         <ul className="navbar-container">
             <Link to="/" className='nav-link1'>
-            <li className="nav-item">
-              Home
-            </li>
+              <li className="nav-item">
+                Home
+              </li>
             </Link>
-
             
-
-            <Link to="/solutions" className='nav-link1'> 
             <li className="nav-item" onClick={handleDropdown1}>
               Solutions
               {dropdownOpen1 && (
                 <div className="dropdown-container">
                   <ul className="dropdown-items">
-                    <li className="dropdown-item">Control systems</li>
-                    <Link to="/Light-canopi-system">
-                    <li className="dropdown-item">Light canopi system</li></Link>
-                    <li className="dropdown-item">Term key solutions</li>
+                  <Link to="/single-point-controller" className='nav-link1'>
+                    <li className="dropdown-item">Single Point Controller</li>
+                  </Link>
+                  <Link to="/programmable-controller" className='nav-link1'>
+                    <li className="dropdown-item">Programmable Controller</li>
+                  </Link>
+                    <Link to="/light-canopi-system" className='nav-link1'>
+                    <li className="dropdown-item">Light canopy system</li>
+                    </Link>
+                    <Link to="/valoya-light-system" className='nav-link1'>
+                    <li className="dropdown-item">Valoya Light</li>
+                    </Link>
+                    <Link to="/plantgrowthchamberrefurbished" className='nav-link1'>
                     <li className="dropdown-item">Retrofit</li>
+                    </Link>
                   </ul>
                   <div className='dropdown-content'>
                     <p className='dropdown-para'><span className='span-el'>Our solutions</span> include advanced control systems, innovative light canopy systems, turnkey solutions,
@@ -90,16 +97,24 @@ const Navbar = () => {
                 </div>
               )}
             </li>
-            </Link>
+           
             <li className="nav-item" onClick={handleDropdown2}>
               Environment
               {dropdownOpen2 && (
                 <div className="dropdown-container">
                   <ul className="dropdown-items">
-                    <Link to="/chamberMainsession"><li className="dropdown-item">Reach-in Plant Growth chambers</li></Link>
-                    <li className="dropdown-item">Walk-in Plant Growth rooms</li>
-                    <li className="dropdown-item">Custom controlled Environment</li>
-                    <li className="dropdown-item">Storage chambers</li>
+                    <Link to="/plantgrowthchamberrefurbished" className='nav-link1'>
+                      <li className="dropdown-item">Plant Growth chambers</li>
+                    </Link>
+                    <Link to="/mediumTermStorage" className='nav-link1'>
+                    <li className="dropdown-item">Medium Storage chamber</li>
+                    </Link>
+                    <Link to="/mediumtermstorageredundant" className='nav-link1'>
+                    <li className="dropdown-item">Medium storage Redundant</li>
+                    </Link>
+                    <Link to="/insectRefurbishmentSolution" className='nav-link1'>
+                    <li className="dropdown-item">Insect Rearing chamber</li>
+                    </Link>
                   </ul>
                   <div className='dropdown-content'>
                     <p className='dropdown-para'><span className='span-el'>Discover </span>our advanced solutions for controlled environments, including Reach-in Plant Growth Chambers, Walk-in Plant Growth Rooms, Custom Controlled Environments,
@@ -112,15 +127,28 @@ const Navbar = () => {
                 </div>
               )}
             </li>
+
             <li className="nav-item" onClick={handleDropdown3}>
               Technology
               {dropdownOpen3 && (
                 <div className="dropdown-container">
                   <ul className="dropdown-items">
+                  <Link to="/automobile-test-chamber" className='nav-link1'>
                     <li className="dropdown-item">Automobile test chambers</li>
+                  </Link>
+
+                  <Link to="/electronic-technology" className='nav-link1'>
                     <li className="dropdown-item">Electronics technology</li>
+                  </Link>
+
+                  <Link to="/customized-technology" className='nav-link1'>
                     <li className="dropdown-item">Customize technology</li>
+                  </Link>
+
+                  <Link to="/air-bags" className='nav-link1'>
                     <li className="dropdown-item">Air bags</li>
+                  </Link>
+
                   </ul>
                   <div className='dropdown-content'>
                     <p className='dropdown-para'><span className='span-el'>Innovative </span>Testing Solutions Advanced Technology for Automobiles, Electronics, and Custom Applications.Our cutting-edge technology ensures rigorous testing
@@ -135,15 +163,16 @@ const Navbar = () => {
             </li>
             
             <Link to="contactus" className='nav-link1'>
-                <li className="nav-item">
-                  Contact Us
-                </li>
+              <li className="nav-item">
+                Contact Us
+              </li>
             </Link>  
 
             <Link to="/about" className='nav-link1'> 
-             <li className="nav-item" >
+              <li className="nav-item" >
               About
-            </li></Link> 
+              </li>
+            </Link> 
         </ul>
 
        

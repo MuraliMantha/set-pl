@@ -35,6 +35,7 @@ import CustomizedConepy from '../CustomizedConepy/customizedConepy'
 // import SingleChamber from '../Chambers/SingleCamber/singleChamber'
 import SingleTechnology from '../SingleTechnology/singleTechnology'
 import ContactUs from '../Contact/contact'
+import ChamberCards from '../Chambers-cards/chamber-cards'
 
 const Home = () => {
   return (
@@ -48,14 +49,14 @@ const Home = () => {
    <Hero />
    <Solutions />
    {/* <Cards /> */}
-
+<ChamberCards />
    <Technologies />
-   <SingleTechnology />
+   {/* <SingleTechnology /> */}
    {/* <CustomizedConepy /> */}
-   <Footer /> 
+   {/* <Footer />  */}
    {/* <Chambers/>
  <SingleChamber /> */}
- <ContactUs />
+ {/* <ContactUs /> */}
  {/* <About /> */}
    </>
   )

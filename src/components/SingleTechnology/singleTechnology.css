@@ -82,3 +82,17 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
   
+  .single-technology-bg-img{
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../../../public/assets/techi.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .single-technology-bg-heading{
+    color: white;
+    font-weight: bold;
+  }

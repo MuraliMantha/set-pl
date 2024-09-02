@@ -16,6 +16,13 @@ import InsectRefurbishmentSolution from "./components/Main-singleCahmber/InsectR
 import Mediumtermstorageredundant from "./components/Main-singleCahmber/mediumtermstorageredundant";
 import About from "./components/About/about";
 import ContactUs from "./components/Contact/contact";
+import SingleTechnology from "./components/SingleTechnology/singleTechnology";
+import ElectronicTech from "./components/SingleTechnology/electronictech";
+import CustomizedTech from "./components/SingleTechnology/customisedtech";
+import AirBag from "./components/SingleTechnology/airbag";
+import SinglePointController from "./components/Controllers/singlePoint";
+import ProgrammableController from "./components/Controllers/programmable";
+import Volaya from "./components/voloya/volaya";
 // import About from "./components/About/About";
 
 function App() {
@@ -29,14 +36,22 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/singleProductChamber" element={<SingleProductChamber />} />
         <Route path="/light-canopi-system" element={<ConepyPage />} />
+        <Route path="/valoya-light-system" element={<Volaya />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/chamberMainsession" element={<ChamberMainsession />} />
         <Route path="/mediumTermStorage" element={<MediumTermStorageChamber />} />
         <Route path="/plantgrowthchamberrefurbished" element={<Plantgrowthchamberrefurbished />} />
         <Route path="/insectRefurbishmentSolution" element={<InsectRefurbishmentSolution />} />
         <Route path="/mediumtermstorageredundant" element={<Mediumtermstorageredundant />} />
+        <Route path="/automobile-test-chamber" element={<SingleTechnology />} />
+        <Route path="/electronic-technology" element={<ElectronicTech />} />
+        <Route path="/customized-technology" element={<CustomizedTech />} />
+        <Route path="/air-bags" element={<AirBag />} />
+        <Route path="/single-point-controller" element={<SinglePointController />} />
+        <Route path="/programmable-controller" element={<ProgrammableController/>} />
+
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }

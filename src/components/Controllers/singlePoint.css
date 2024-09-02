@@ -1,0 +1,127 @@
+.singlepoint-controller-bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../../../public/assets/ppi1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.singlepoint-controller-bg-heading {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.singlepoint-controller-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.singlepoint-controller-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.controller-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.singlepoint-controller-header-text {
+    flex: 1;
+}
+
+.singlepoint-controller-heading {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.singlepoint-controller-para {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.singlepoint-controller-content-heading {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.singlepoint-controller-features-card,
+.singlepoint-controller-tech-specs-card {
+    list-style-type: none;
+    padding: 0;
+}
+
+.singlepoint-controller-features-card li,
+.singlepoint-controller-tech-specs-card li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.singlepoint-controller-features-card li::before,
+.singlepoint-controller-tech-specs-card li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #007BFF;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.singlepoint-controller-apps {
+    font-size: 1.8rem;
+    color: #444;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.singlepoint-controller-apps-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.singlepoint-controller-app-card {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.app-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.singlepoint-controller-app-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.singlepoint-controller-app-card p {
+    font-size: 1.1rem;
+    color: #555;
+}

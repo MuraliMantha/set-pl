@@ -37,7 +37,7 @@ export const Email = () => {
           </div>
           <div className="info-item">
             <h4>Email</h4>
-            <p>kajay02@gmail.com</p>
+            <p>setprvtltd@gmail.com</p>
           </div>
           <div className="info-item">
             <h4>Phone</h4>

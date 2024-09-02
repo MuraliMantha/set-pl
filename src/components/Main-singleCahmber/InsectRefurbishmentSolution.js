@@ -87,7 +87,7 @@ const InsectRefurbishmentSolution = () => {
       {/* Product details section */}
       <div className="product-container">
         <div className="product-details">
-          <h1 className="product-title">Insect Rearing Chamber</h1>
+          <h1 className="products-title">Insect Rearing Chamber</h1>
           <h3 className="product-subtitle">Refurbishment & Upgradation Solution</h3>
           <p className="product-description">
             Sreekara EnviroTech Private Limited offers a comprehensive refurbishment and upgradation solution for existing insect rearing chambers. This service transforms outdated chambers into modern, efficient systems.
@@ -106,6 +106,51 @@ const InsectRefurbishmentSolution = () => {
           />
         </div>
       </div>
+
+        {/* Carousel starts here */}
+
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div className="product-gallery">
+        <div className="product-card unique-product-card-1">
+          <img src="https://dummyimage.com/600x400/000/fff" alt="Product 1" className="product-image" />
+          <div className="product-info">
+            <h2 className="product-title">Product 1</h2>
+          </div>
+        </div>
+
+
+     
+      </div>    </div>
+    <div class="carousel-item">
+    <div className="product-gallery">
+        <div className="product-card unique-product-card-1">
+          <img src="https://dummyimage.com/600x400/000/fff" alt="Product 1" className="product-image" />
+          <div className="product-info">
+            <h2 className="product-title">Product 1</h2>
+          </div>
+        </div>
+
+    
+      </div>    </div>
+    <div class="carousel-item">
+    <div className="product-gallery">
+        <div className="product-card unique-product-card-1">
+          <img src="https://dummyimage.com/600x400/000/fff" alt="Product 1" className="product-image" />
+          <div className="product-info">
+            <h2 className="product-title">Product 1</h2>
+          </div>
+        </div>
+
+
+
+      </div>    </div>
+  </div>
+ 
+</div>
+
+      {/* Carousel ends here */}
 
       {/* Accordion section */}
       <div className="single-chamber-accordion-container">

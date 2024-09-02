@@ -1,162 +1,161 @@
 /* CSS Variables for Reusability */
 :root {
-    --primary-color: #4caf50;
-    --secondary-color: #e67817;
-    --text-color: #333;
-    --border-radius: 20px;
+  --primary-color: #4caf50;
+  --secondary-color: #e67817;
+  --text-color: #333;
+  --border-radius: 20px;
+}
+
+.conepy-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-container {
+  padding: 4%;
+  padding-top: 4%;
+}
+
+.conephy-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.conephy-logo-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.conepy-logo {
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: var(--border-radius);
+}
+
+.right-thum-show {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.content {
+  width: 100%;
+  margin-top: 1%;
+}
+
+.conephy-image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-box {
+  width: calc(33.33% - 20px);
+  text-align: center;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.image-box:hover {
+  transform: scale(1.05);
+}
+
+.image-box img {
+  width: 100%;
+  display: block;
+}
+
+.image-box p {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.conephy-info-container {
+  padding: 4%;
+}
+
+.conephy-info-box {
+  margin-bottom: 20px;
+}
+
+.conephy-info-box h3 {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.conephy-info-box p {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-top: 10px;
+}
+
+.conephy-core-strength {
+  border: 3px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  margin: 20px 0;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.conephy-core-strength:hover {
+  border-color: var(--secondary-color);
+}
+
+.conephy-core-strength h2 {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: var(--border-radius);
+}
+
+.conephy-core-strength:hover h2 {
+  color: var(--secondary-color);
+  background-color: white;
+  border: 1px solid var(--secondary-color);
+}
+
+.conephy-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.conephy-features ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .image-box {
+    width: calc(50% - 20px);
   }
-  
-  .conepy-container {
+
+  .right-thum-show {
+    font-size: 2rem;
+  }
+
+  .conephy-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-box {
     width: 100%;
-    padding: 0;
-    margin: 0;
   }
-  
+
   .sub-container {
     padding: 4%;
-    padding-top: 4%;
   }
-  
-  .conephy-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .conephy-logo-con {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .conepy-logo {
-    width: 150px;
-    margin-bottom: 10px;
-    border-radius: var(--border-radius);
-  }
-  
-  .right-thum-show {
-    font-size: 3rem;
-    color: var(--primary-color);
-  }
-  
-  .content {
-    width: 100%;
-    margin-top: 1%;
-  }
-  
-  .conephy-image-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .image-box {
-    width: calc(33.33% - 20px);
-    text-align: center;
-    border-radius: var(--border-radius);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-  }
-  
-  .image-box:hover {
-    transform: scale(1.05);
-  }
-  
-  .image-box img {
-    width: 100%;
-    display: block;
-  }
-  
-  .image-box p {
-    color: var(--secondary-color);
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  .conephy-info-container {
-    padding: 4%;
-  }
-  
-  .conephy-info-box {
-    margin-bottom: 20px;
-  }
-  
-  .conephy-info-box h3 {
-    color: var(--primary-color);
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-  
-  .conephy-info-box p {
-    font-size: 1rem;
-    color: var(--text-color);
-    margin-top: 10px;
-  }
-  
-  .conephy-core-strength {
-    border: 3px solid var(--primary-color);
-    border-radius: var(--border-radius);
-    margin: 20px 0;
-    text-align: center;
-    padding: 20px;
-    transition: all 0.3s ease;
-  }
-  
-  .conephy-core-strength:hover {
-    border-color: var(--secondary-color);
-  }
-  
-  .conephy-core-strength h2 {
-    color: white;
-    background-color: var(--primary-color);
-    padding: 10px;
-    border-radius: var(--border-radius);
-  }
-  
-  .conephy-core-strength:hover h2 {
-    color: var(--secondary-color);
-    background-color: white;
-    border: 1px solid var(--secondary-color);
-  }
-  
-  .conephy-features ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .conephy-features ul li {
-    font-size: 1rem;
-    margin-bottom: 10px;
-    color: var(--text-color);
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .image-box {
-      width: calc(50% - 20px);
-    }
-  
-    .right-thum-show {
-      font-size: 2rem;
-    }
-  
-    .conephy-header {
-      flex-direction: column;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .image-box {
-      width: 100%;
-    }
-  
-    .sub-container {
-      padding: 4%;
-    }
-  }
-  
+}
