@@ -7,9 +7,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 92vw;
+    width: 99.1vw;
     color: #85C224;
-    height: 5vh;
+    height: 10vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,8 +31,8 @@
     display: flex;
 }
 .logo{
-    width: 6vw;
-    height: 11vh;
+    width: 4.5vw;
+    height: 9vh;
 }
 
 .navbar-container{
@@ -267,4 +267,8 @@
     }
   }
   
-  
+  .nav-link1{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 20px;
+  }

@@ -1,76 +1,14 @@
-/* Container for contact info and form */
 .contact-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  /* Contact Info Section */
-  .contact-info {
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .info-item {
-    margin-bottom: 20px;
-  }
-  
-  .info-item h3 {
-    margin-bottom: 5px;
-  }
-  
-  .info-item p {
-    margin: 0;
-  }
-  
-  /* Contact Form Section */
-  .contact-form {
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .contact-form form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-form label {
-    margin-bottom: 5px;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 1em;
-  }
-  
-  .contact-form button {
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 1em;
-  }
-  
-  .contact-form button:hover {
-    background-color: #0056b3;
-  }
-  
-  @media (max-width: 768px) {
-    /* Stack contact info and form vertically on small screens */
-    .contact-container {
-      flex-direction: column;
-    }
-  
-    .contact-info, .contact-form {
-      width: 100%;
-    }
-  }
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
 
-  
+/* Contact Info Section */
+.contact-info {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

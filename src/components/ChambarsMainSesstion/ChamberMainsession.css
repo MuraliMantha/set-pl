@@ -1,0 +1,195 @@
+.Product-container {
+    display: flex;
+  }
+  
+  .Product-sidebar {
+    width: 36vw;
+    padding: 20px;
+    background-color: #daf1fc;
+    color:  #4caf50;
+
+  }
+  .Product-sidebar-header h1{
+    text-align: center;
+   margin-bottom: 5%;
+  }
+  .Product-sidebar-header{
+    position: sticky;
+    top: 15%;
+  }
+  
+  .sidebarList {
+    list-style-type: none;
+    padding: 0;
+    /* position: sticky;
+    top: 20px; */
+  }
+  
+  .sidebarItem {
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .sidebarItem::before {
+    content: '⮞'; 
+    display: inline-block;
+    margin-right: 8px;
+    color: inherit;
+    font-size: 1rem;
+  }
+  
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap; 
+   
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .productCard {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 35vw;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* .productCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  } */
+  
+
+  .imageContainer {
+    overflow: hidden;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .productCard:hover .productImage {
+    transform: scale(1.1);
+  }
+  
+  .productContent {
+    padding: 20px;
+  }
+  
+  .productTitle {
+    font-size: 1.3em;
+    color:  #4caf50;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+  
+  .productDetails {
+    display: flex;
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .productDetails p{
+    /* border-right: 2px solid  #4caf50; */
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 2%;
+    /* font-weight: 600; */
+   
+  }
+  .product-border {
+    border-right: 2px solid  #4caf50;
+    border-left: 2px solid  #4caf50;
+
+  }
+  
+  .learnMoreBtn {
+    width: 100%;
+    padding: 10px 20px;
+    background: linear-gradient(to right,  #4caf50 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: left right;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-position 0.5s;
+        border: 1px solid  #4caf50;
+
+  }
+  
+  .learnMoreBtn:hover {
+    background-position: right bottom;
+    color:  #4caf50;
+    border: 1px solid  #4caf50;
+  }
+
+  .chamber-bg-img{
+
+      background-image: url('https://img.freepik.com/free-photo/delicate-leaves-small-tree_23-2147811147.jpg?t=st=1724564341~exp=1724567941~hmac=0b4720907e4920009581fddf46dc3b758f0ff826001c33459729305b15d9c90c&w=996');
+      background-attachment: fixed;
+      background-size:cover;
+      text-align: center;
+      padding: 10% 0;
+      color: white;
+      font-size: 1rem;
+      animation: fadeIn 2s ease-in-out;
+      margin-top: 13vh;
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    .Product-sidebar {
+      display: none; 
+    }
+  
+    .productCard {
+      width: 49%; 
+      margin: 10px auto; 
+    }
+  
+    .products {
+      justify-content: center; 
+    }
+    .chamber-bg-img{
+
+      margin-top: 3rem;
+          }
+  }
+  
+  /* Responsive styles for mobile screens */
+  @media screen and (max-width: 768px) {
+    .imageContainer {
+      width: 100vw;
+
+    }
+  
+    .productCard {
+      width: 100%;
+      margin: 10px 0; 
+    }
+  
+    .products {
+      padding: 20px;
+      justify-content: center; 
+    }
+    .Product-container{
+      display: block;
+    }
+    .productDetails-p p{
+      text-align: justify;
+      padding: 0;
+    }
+    
+  }

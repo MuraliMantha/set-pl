@@ -5,12 +5,12 @@ import { FaLightbulb, FaLeaf, FaCog } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="container">
-      <div className="sub-container">
-        <div className="header">
+    <div className="hero-container">
+      <div className="hero-sub-container">
+        <div className="hero-header">
           <h1>
             Innovating for a{" "}
-            <span className="highlight">Sustainable Future</span>
+            <span className="hero-highlight">Sustainable Future</span>
           </h1>
           <p>
             We at SET (SREEKARA EnviroTech), customize and design equipment &
@@ -20,8 +20,8 @@ const Hero = () => {
             provide the most economical and reliable solution within the
             committed time frame.
           </p>
-          <button className="contact-btn">
-            Contact Us <span className="arrow">➔</span>
+          <button className="hero-contact-btn">
+            Contact Us <span className="hero-arrow">➔</span>
           </button>
         </div>
         {/* <div className="image-container">

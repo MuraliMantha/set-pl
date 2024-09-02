@@ -31,33 +31,32 @@ import Hero from '../Hero/hero'
 import Cards from '../Cards.js/cards'
 import Footer from '../Footer/footer'
 import CustomizedConepy from '../CustomizedConepy/customizedConepy'
-import Chambers from '../Chambers/chambers'
-import SingleChamber from '../Chambers/SingleCamber/singleChamber'
+// import Chambers from '../Chambers/chambers'
+// import SingleChamber from '../Chambers/SingleCamber/singleChamber'
 import SingleTechnology from '../SingleTechnology/singleTechnology'
 import ContactUs from '../Contact/contact'
-import SinglePointController from '../Controllers/controller'
 
 const Home = () => {
   return (
     <> <div>
     <div className='scroll-watcher'></div>
-   <Navbar />
+   {/* <Navbar /> */}
 
    
 
    </div>
    <Hero />
    <Solutions />
-   <Cards />
+   {/* <Cards /> */}
 
    <Technologies />
    <SingleTechnology />
-   <CustomizedConepy />
+   {/* <CustomizedConepy /> */}
    <Footer /> 
    {/* <Chambers/>
  <SingleChamber /> */}
  <ContactUs />
- <SinglePointController />
+ {/* <About /> */}
    </>
   )
 }

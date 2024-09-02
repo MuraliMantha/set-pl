@@ -5,6 +5,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 // import NavItem from "../Navitem/navitem";
 // import logo from "../../../public/assets/logo.png"
 import "./navbar.css"
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -58,16 +59,23 @@ const Navbar = () => {
 
 
         <ul className="navbar-container">
+            <Link to="/" className='nav-link1'>
             <li className="nav-item">
               Home
             </li>
+            </Link>
+
+            
+
+            <Link to="/solutions" className='nav-link1'> 
             <li className="nav-item" onClick={handleDropdown1}>
               Solutions
               {dropdownOpen1 && (
                 <div className="dropdown-container">
                   <ul className="dropdown-items">
                     <li className="dropdown-item">Control systems</li>
-                    <li className="dropdown-item">Light canopi system</li>
+                    <Link to="/Light-canopi-system">
+                    <li className="dropdown-item">Light canopi system</li></Link>
                     <li className="dropdown-item">Term key solutions</li>
                     <li className="dropdown-item">Retrofit</li>
                   </ul>
@@ -82,12 +90,13 @@ const Navbar = () => {
                 </div>
               )}
             </li>
+            </Link>
             <li className="nav-item" onClick={handleDropdown2}>
               Environment
               {dropdownOpen2 && (
                 <div className="dropdown-container">
                   <ul className="dropdown-items">
-                    <li className="dropdown-item">Reach-in Plant Growth chambers</li>
+                    <Link to="/chamberMainsession"><li className="dropdown-item">Reach-in Plant Growth chambers</li></Link>
                     <li className="dropdown-item">Walk-in Plant Growth rooms</li>
                     <li className="dropdown-item">Custom controlled Environment</li>
                     <li className="dropdown-item">Storage chambers</li>
@@ -125,12 +134,17 @@ const Navbar = () => {
               )}
             </li>
             
-            <li className="nav-item">
-        
-              Contact Us
-          
-            </li>
-          </ul>
+            <Link to="contactus" className='nav-link1'>
+                <li className="nav-item">
+                  Contact Us
+                </li>
+            </Link>  
+
+            <Link to="/about" className='nav-link1'> 
+             <li className="nav-item" >
+              About
+            </li></Link> 
+        </ul>
 
        
         <div className="navbar-mobile-container">
@@ -153,6 +167,9 @@ const Navbar = () => {
               </li>
               <li className="nav-item-mobile" >
                 Technology
+              </li>
+              <li className="nav-item-mobile" >
+                About
               </li>
               
             </ul>

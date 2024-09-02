@@ -1,11 +1,12 @@
 import React from "react";
 import "./contact.css";
+import { Email } from "../Emailjs/email";
 
 const ContactUs = () => {
   return (
     <div>
       {/* Google Maps Section */}
-      <div className="map-container">
+      {/* <div className="map-container">
       <iframe
         title="Enterprise Location"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.0309204104456!2d78.48666539935995!3d17.474429500382243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9a62b7763155%3A0x7766c9622cbdda32!2sSri%20Srinivasa%20Nivas%20Apmts!5e0!3m2!1sen!2sin!4v1724513244782!5m2!1sen!2sin"
@@ -15,9 +16,10 @@ const ContactUs = () => {
         loading="lazy"
       ></iframe>
 
-      </div>
+      </div> */}
+      <Email />
 
-      <div className="contact-container">
+      {/* <div className="contact-container">
         <div className="contact-info">
           <div className="info-item">
             <h3>Address</h3>
@@ -33,7 +35,6 @@ const ContactUs = () => {
           </div>
         </div>
 
-        {/* Email Form Section */}
         <div className="contact-form">
           <h3>Contact Us</h3>
           <form>
@@ -49,7 +50,7 @@ const ContactUs = () => {
             <button type="submit">Send</button>
           </form>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
